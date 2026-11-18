@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDE8B9EA-5CED-40DF-90CD-8FA37D0FB8F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesiPantry.Agent", "src\DesiPantry.Agent\DesiPantry.Agent.csproj", "{62EA26F4-3AE0-45E3-89C3-2F83A63C09D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6DCCFA25-3E14-48DD-9458-AB6BB98D5E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesiPantry.Tests", "tests\DesiPantry.Tests\DesiPantry.Tests.csproj", "{BEABD955-A3FC-4547-865A-3A33EA9FD6B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62EA26F4-3AE0-45E3-89C3-2F83A63C09D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EA26F4-3AE0-45E3-89C3-2F83A63C09D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EA26F4-3AE0-45E3-89C3-2F83A63C09D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EA26F4-3AE0-45E3-89C3-2F83A63C09D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEABD955-A3FC-4547-865A-3A33EA9FD6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEABD955-A3FC-4547-865A-3A33EA9FD6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEABD955-A3FC-4547-865A-3A33EA9FD6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEABD955-A3FC-4547-865A-3A33EA9FD6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62EA26F4-3AE0-45E3-89C3-2F83A63C09D0} = {EDE8B9EA-5CED-40DF-90CD-8FA37D0FB8F2}
+		{BEABD955-A3FC-4547-865A-3A33EA9FD6B7} = {6DCCFA25-3E14-48DD-9458-AB6BB98D5E43}
+	EndGlobalSection
+EndGlobal
